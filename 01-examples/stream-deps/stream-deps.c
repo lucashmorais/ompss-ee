@@ -57,7 +57,7 @@
  *          that should be good to about 5% precision.
  */
 
-# define N	128*1024*1024 
+# define N	128*256*256 
 # define NTIMES	10
 # define OFFSET	0
 
