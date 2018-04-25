@@ -4,11 +4,6 @@ PREFIX=.
 #TARGETS=$(PROGRAM)-p $(PROGRAM)-i $(PROGRAM)-d
 TARGETS=$(PROGRAM)-p 
 
-JOB_SCHED_VERSION=smp
-
-BASE_DIR=../..
-include $(BASE_DIR)/common-files/Makefile
-
 CC = riscv64-unknown-linux-gnu-mcc
 
 CFLAGS = --ompss --no-copy-deps

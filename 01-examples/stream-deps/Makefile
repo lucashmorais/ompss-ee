@@ -3,11 +3,6 @@ PROGRAM=stream-deps
 #TARGETS=$(PROGRAM)-p $(PROGRAM)-i $(PROGRAM)-d
 TARGETS=$(PROGRAM)-p 
 
-JOB_SCHED_VERSION=-smp
-
-BASE_DIR=../..
-include $(BASE_DIR)/common-files/Makefile
-
 #CC = mcc
 CC = riscv64-unknown-linux-gnu-mcc
 
